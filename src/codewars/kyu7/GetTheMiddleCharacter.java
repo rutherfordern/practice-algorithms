@@ -1,4 +1,4 @@
-package kyu7;
+package codewars.kyu7;
 
 public class GetTheMiddleCharacter {
     public static void main(String[] args) {
