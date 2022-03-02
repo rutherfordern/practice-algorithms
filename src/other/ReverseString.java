@@ -1,5 +1,7 @@
 package other;
 
+import java.util.Arrays;
+
 public class ReverseString {
     public static void main(String[] args) {
 
@@ -13,7 +15,6 @@ public class ReverseString {
 
         // Метод 2
         stringReverse(example3);
-
 
     }
 
@@ -32,4 +33,5 @@ public class ReverseString {
         String reversedString = new StringBuilder(str).reverse().toString();
         System.out.println(reversedString);
     }
+
 }
