@@ -11,7 +11,6 @@ public class BubbleSort {
 
         System.out.println(Arrays.toString(nums));
 
-
     }
 
     public static int[] getBubbleSort(int[] array) {

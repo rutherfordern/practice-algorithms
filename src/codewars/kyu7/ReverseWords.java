@@ -13,7 +13,7 @@ public class ReverseWords {
 
     public static String reverseWords(String original) {
 
-        // Разбиваем строку на отдельны слова и сохраняем в массив
+        // Разбиваем строку на отдельные слова и сохраняем в массив
         String[] arrayWord = original.split(" ");
 
         if (arrayWord.length == 0) {
@@ -21,7 +21,7 @@ public class ReverseWords {
         }
 
         int i = 0;
-        for(String str : arrayWord){
+        for (String str : arrayWord){
             arrayWord[i] = new StringBuilder(str).reverse().toString();
             i++;
         }
