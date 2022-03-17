@@ -13,7 +13,7 @@ public class RotateArray {
 
     }
 
-    public static void rotate1(int[] nums, int k) {
+    public static void rotate1 (int[] nums, int k) {
 
         for (int i = 0; i < k; i++) {
             for (int j = nums.length - 1; j > 0; j--) {
@@ -24,7 +24,7 @@ public class RotateArray {
         }
     }
 
-    public static void rotate2(int[] nums, int k) {
+    public static void rotate2 (int[] nums, int k) {
 
         int[] newSums = new int[nums.length];
 
